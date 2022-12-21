@@ -1,0 +1,52 @@
+
+body{
+    background-color: #FFFF;
+    
+    margin:0;
+}
+h1,h2{
+    color: #86c232;
+}
+.subtext{
+    color: white;
+    font-size: large;
+}
+
+.topcontainer{
+    height: 650.38px;
+    width: 1628px;
+    background-color: #222629;
+    padding:50px;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    gap: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: #86c232;
+}.kicon{
+    filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
+
+
+}
+.titleImage{
+    z-index: 1;
+    filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
+
+
+    height: 700px;
+    width: 700px;
+}.homeScreen{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30pc;
+    align-items: center;
+}
+
