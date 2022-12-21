@@ -13,11 +13,11 @@ h1,h2{
 }
 
 .topcontainer{
-    height: 650.38px;
-    width: 1628px;
     background-color: #222629;
     padding:50px;
     margin: 0%;
+    border-radius: 0;
+    padding-bottom: 200px;
 }
 .navbar{
     display: flex;
@@ -31,22 +31,55 @@ h1,h2{
 a{
     text-decoration: none;
     color: #86c232;
-}.kicon{
+}.kicon,.BlogPNG{
     filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
 
 
 }
 .titleImage{
+    display: flex;
     z-index: 1;
     filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
 
 
-    height: 700px;
-    width: 700px;
+    height: 540px;
+    width: 540px;
 }.homeScreen{
     display: flex;
     justify-content: space-between;
     margin-right: 30pc;
     align-items: center;
 }
+.midContainer{
+    display: flex;
+    background-color: #474B4F;
+    margin: 0px;
+    padding: 50px;
+    padding-top: 10px;
+}
+.aboutMeSubtext{
+    display: flex;
+    justify-content: end;
+
+}
+.underblog{
+    color: white;
+    
+}
+.Blogs{
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+}
+.SocialEngineeringBlog, .TheranosBlog{
+    display: flex;
+    flex-direction: column;
+}
+.BlogPNG{
+    margin-bottom: 30px;
+}
+
+
 
