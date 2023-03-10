@@ -1,0 +1,47 @@
+
+body{
+    background-color: #222629;
+    margin:0;
+}
+h1{
+    color: #86c232;
+}
+.topcontainer{
+    padding:50px;
+    margin: 0%;
+    border-radius: 0;
+    padding-bottom: 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    gap: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: #86c232;
+}.kicon{
+    filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
+
+}
+.titleImage{
+    display: flex;
+    z-index: 1;
+    filter: invert(59%) sepia(98%) saturate(306%) hue-rotate(43deg) brightness(96%) contrast(95%);
+
+
+    height: 540px;
+    width: 540px;
+}.homeScreen{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30pc;
+    align-items: center;
+}
+
+
+
